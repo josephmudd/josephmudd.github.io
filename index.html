@@ -25,9 +25,14 @@
     <![endif]-->
   </head>
   <body>
-	  <h1>Hello, world!</h1><br /><button onclick="$('#cat').show()">Press Me</button>
+	  <h1>Hello, world!</h1><br />
+    <button onclick="$('#cat').toggleClass('hide')">Press Me</button>
+    <br />
+    <button onclick="$('#ronaldo').toggleClass('hide')">Click Here</button>
 	  <br />
-	  <img style="display:none" id="cat" src="/cat.jpg"></img>
+    <img class="hide" id="ronaldo" src="ronaldo.png"></img>
+	  <br />
+    <img class="hide" id="cat" src="cat.jpg"></img>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
